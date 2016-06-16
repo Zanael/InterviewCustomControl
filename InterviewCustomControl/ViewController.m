@@ -25,6 +25,8 @@
     [self.control removeSegmentAtIndex:0];
     [self.control addSegmentWithTitle:@"boOm"];
     [self.control addSegmentWithTitle:@"7"];
+    [self.control insertSegment:@"1" atIndex:0];
+    [self.control insertSegment:@"2" atIndex:1];
     
 }
 
